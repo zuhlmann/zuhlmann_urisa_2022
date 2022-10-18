@@ -3,7 +3,8 @@ Zachary Uhlmann</br>
 **ABSTRACT:** Using examples from my job at a mid-sized heavy civil engineering firm and drawing on previous experience in the natural resource field, we will use Python within a Jupyter Notebook in Pro to create, analyze, document, and ultimately publish data to ArcGIS Online. We will set parameters and document metadata from CSVs using Pandas, one of the essential python data analytics libraries.  This workflow will raise the ceiling of geoprocessing efficiency and customization in our GIS workflows while keeping database information accessible to non-GIS people and those with no programming experience.  Hopefully these examples can motivate people to overcome their apprehension, and finally begin the switch from Desktop to Pro. 
 
 ## Tutorial Prep</br>
-#### 1. <ins>Create new ArcGIS Pro Project, open blank map</ins></br>
+#### 1. <ins>Create new ArcGIS Pro Project</ins></br>
+- **IMPORTANT** Title the new project ```urisa_presentation```</br>
 
 #### 2. <ins>Download reposistory:</ins></br>
 - download as zip file --> unzip</br></br>
