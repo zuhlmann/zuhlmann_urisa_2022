@@ -39,8 +39,20 @@ _file extensions .IPYNB_ from download</br></br>
 - Cell 4: Load Pandas DataFrame: Read csv into DataFrame and inspect
 - Cell 5: Incorrect File Path. Notice this is MY file path, not yours
 - Cell 6: Fix File Path the Hard Way. Follow comments, run cell or change path manually and rerun Cell 4
--
- 
+- Cell 7: Dictionary.  Not necessary, but makes later code more readable.  I like dictionaries
+- Cell 8: Arguments for Copy FC.  Create and pull from DataFrame (df) all arguments to copy Four Corners Fire Perim
+- Cell 9: Create Datasets.  Go to ```basics``` Notebook (open it) and run all three cells in order
+- Cell 10: Create new FC.  Copy selected fire perimeter into new feature class in agency dataset within project gdb
+- Cell 11: Clean up map.  A reminder to remove redundant FC
+- Cell 12: Set values to DataFrame. Record data location of ```four_corners_fire_perim```
+- Cell 13: Arguments for Copy Roads FC.  Same thing as fire boundaries, but passing full path of roads dataset location from DataFrame directly to function (Cell 14) as opposed to from Table of Contents (TOC)
+- Cell 14: Copy roads FC to Pro gdb.  Run function, copy into database - should appear in map depending on user's Pro settings
+- Cell 15: Set values to DataFrame.  New data location and original.
+- Cell 16: Clip contour polygons to fire boundary. Combine the assimilating of arguments and running of function (Clip_analysis) into single cell. Output clipped contour polygons for use in final map
+- Cell 17: Set values to DataFrame. LOOK(!)  Added a couple more metadata attributes that can be saved to csv and later used to populate Item Description (a different tutorial!)
+- Cell 18: Clean up map.  
+- Cell 19: Save updated csv.  Retained original for repeated runs of tutorial, as updated csv now has updated file paths.
+- 
 
   
 
