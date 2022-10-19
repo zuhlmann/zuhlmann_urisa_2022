@@ -1,3 +1,3 @@
 ITEM,DATA_LOCATION,MOVE_LOCATION,MOVE_LOCATION_DSET,RENAME,SOURCE,DATE_CREATED,ABSTRACT,DATA_LOCATION_ORIGINAL,DATE
-four_corners_fire_perim,,urisa_presentation_gdb,agency,,National Interagency Fire Center,20221002,Four Corner Fire boundary selection from NIFC current 2022 fire boundaries downloaded at https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-current-wildland-fire-perimeters,,
-RoadCore_FS,C:\Users\uhlmann\Documents\urisa_conference_2022\notebooks_tutorial\github_data\RoadCore_FS.shp,urisa_presentation_gdb,agency,,,,,,
+four_corners_fire_perim,,four_corners_morels_gdb,agency,,National Interagency Fire Center,20221002,Four Corner Fire boundary selection from NIFC current 2022 fire boundaries downloaded at https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-current-wildland-fire-perimeters,,
+RoadCore_FS,C:\Users\uhlmann\Documents\urisa_conference_2022\notebooks_tutorial\github_data\RoadCore_FS.shp,four_corners_morels_gdb,agency,,,,,,
