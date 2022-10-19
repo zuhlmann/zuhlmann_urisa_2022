@@ -16,15 +16,17 @@ Zachary Uhlmann</br>
 
 #### 2. <ins>Create new ArcGIS Pro Project</ins></br>
 - Create new ArcGIS Pro project within the directory from step 1.</br> 
+![new_project](https://user-images.githubusercontent.com/48263393/196758715-11043927-70cd-4f04-8017-6ac8a0e1dbb6.jpg)</br>
 - **IMPORTANT** Title the new project exactly(!): ```four_corners_morels```</br>
 - _Notice the directory in above screenshot_</br>
 
 #### 3. <ins>Add Folder Connection and open both Notebooks</ins></br>
 - In ArcGIS Pro with project open, Add Folder Connection to ```notebooks_tutorial``` directory</br>
-- Open **urisa_p1** and **basics** Notebooks</br>
+- Open **urisa_p1** and **basics** Notebooks from within ```notebooks_tutorial``` directory</br>
 
 ## Begin Tutorial</br>
 <ins>Tips to self-guided tutorial via Notebooks</ins></br>
+- All cells except those that are entirely commented out (i.e. no black non-commented code) will be run in order.  Note that you can run the cells that are pure comments to no consequence - nothing will happen... :)
 - Comments
   - code in Python is Commented-out using # sign 
   - lines will be rendered in green
@@ -35,23 +37,36 @@ Zachary Uhlmann</br>
 **Open _urisa_p1_ Notebook and begin...** 
 - Cell 1: Load Modules. Imports libraries 
 - Cell 2: Canvas.  Follow instructions to populate map with shapfiles and zoom in
-- Cell 3: Paths. Set a path or two to a variable for later use
+- Cell 3: Paths. Replace string within single quotes with ```path/to/your/notebooks_tutorial``` directory
 - Cell 4: Load Pandas DataFrame: Read csv into DataFrame and inspect
 - Cell 5: Incorrect File Path. Notice this is MY file path, not yours
 - Cell 6: Fix File Path the Hard Way. Follow comments, run cell or change path manually and rerun Cell 4
 - Cell 7: Dictionary.  Not necessary, but makes later code more readable.  I like dictionaries
 - Cell 8: Arguments for Copy FC.  Create and pull from DataFrame (df) all arguments to copy Four Corners Fire Perim
 - Cell 9: Create Datasets.  Go to ```basics``` Notebook (open it) and run all three cells in order
-- Cell 10: Create new FC.  Copy selected fire perimeter into new feature class in agency dataset within project gdb
+- Cell 10: Create new FC.  Copy selected fire perimeter into new feature class in agency dataset within project gdb.
+**DON'T FORGET** to select four corners fire from attribute table prior to running
 - Cell 11: Clean up map.  A reminder to remove redundant FC
 - Cell 12: Set values to DataFrame. Record data location of ```four_corners_fire_perim```
 - Cell 13: Arguments for Copy Roads FC.  Same thing as fire boundaries, but passing full path of roads dataset location from DataFrame directly to function (Cell 14) as opposed to from Table of Contents (TOC)
 - Cell 14: Copy roads FC to Pro gdb.  Run function, copy into database - should appear in map depending on user's Pro settings
 - Cell 15: Set values to DataFrame.  New data location and original.
-- Cell 16: Clip contour polygons to fire boundary. Combine the assimilating of arguments and running of function (Clip_analysis) into single cell. Output clipped contour polygons for use in final map
+- Cell 16: Clip contour polygons to fire boundary. NOTE that we combined the assimilating of arguments AND running of function (Clip_analysis) into a single cell in this instance as opposed to assigning variables (arguments) in one cell and calling function in next cell. Output clipped contour polygons for use in final map
 - Cell 17: Set values to DataFrame. LOOK(!)  Added a couple more metadata attributes that can be saved to csv and later used to populate Item Description (a different tutorial!)
 - Cell 18: Clean up map.  
-- Cell 19: Save updated csv.  Retained original for repeated runs of tutorial, as updated csv now has updated file paths.
+- Cell 19: Inpsect DataFrame prior to saving.  Also notice the Abstract we added - just for fun!
+- Cell 20: Save updated csv.  Retained original for repeated runs of tutorial, as updated csv now has updated file paths.  You can find the updated csv in ```notebooks_tutorial``` directory.
+
+## Conclusions
+- Notebooks are a nice way to organize programmic workflows
+- Pandas offer nice alternatives to databases if project is being utilized by non-technical users.  Metadata-ish components are contained in the csv
+- Same with all coding, Notebooks are simply text documents (.ipynb) that can be reused.  
+- Code can be incorporated into more complicated object-oriented modules as functions and shared amongst colleagues.
+- For projects with logs of intermediary data or just lots of data copying, creating, etc., information about data provenance or geoprocessing steps can be added to dataframe concurrently for future reference.
+- Covered in the actual presentation at URISA - Pandas is both a core geospatial data analytics library but also originated and developed  across disciplines and industries.  It's an essentialy Python library to learn.
+- <ins>Not Covered Today:</ins> 
+  -I use the data inventory csv (```four_corners_morels.csv```) to populate Item Descriptions via the shapefile's ```xml```.  I imagine it can be parsed into a ```xslt``` as well.
+  - Ditto for cleaning databases periodically and once projects are complete.  I **delete, move, rename, copy** feature classes via the inventory.csv
 
   
 
