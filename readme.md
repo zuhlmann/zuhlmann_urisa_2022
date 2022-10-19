@@ -17,22 +17,22 @@ Zachary Uhlmann</br>
 #### 2. <ins>Create new ArcGIS Pro Project</ins></br>
 - Create new ArcGIS Pro project within the directory from step 1.</br> 
 - **IMPORTANT** Title the new project exactly(!): ```four_corners_morels```</br>
+- _Notice the directory in above screenshot_</br>
 
-#### 3. <ins>Insert Notebooks from repository directly into Pro Project</ins></br>
-- Add **urisa_p1** and **basics** Notebooks to ArcPro Project</br>
-_file extensions .IPYNB_ from download</br></br>
-![add_notebook](https://user-images.githubusercontent.com/48263393/196487932-8ab562f9-9e34-494b-a852-6ee418aead30.jpg)</br>
+#### 3. <ins>Add Folder Connection and open both Notebooks</ins></br>
+- In ArcGIS Pro with project open, Add Folder Connection to ```notebooks_tutorial``` directory</br>
+- Open **urisa_p1** and **basics** Notebooks</br>
 
 ## Begin Tutorial</br>
-**Open _urisa_p1_ Notebook and begin...** </br>
 <ins>Tips to self-guided tutorial via Notebooks</ins></br>
 - Comments
   - code in Python is Commented-out using # sign 
   - lines will be rendered in green
-  - **READ** - these are line by line instructions and notes
+  - **READ** - these are line by line instructions and notes to compliment below cell by cell instructions</br>
   ![comments](https://user-images.githubusercontent.com/48263393/196494882-f7684b05-87cd-4743-87fe-c405e394f64d.jpg)</br>
   
-### Steps Summarized (*Note that Notebook will have more verbose instructions*)</br>
+### Steps Summarized (*Note that Notebook will have more verbose instructions*)
+**Open _urisa_p1_ Notebook and begin...** 
 - Cell 1: Load Modules. Imports libraries 
 - Cell 2: Canvas.  Follow instructions to populate map with shapfiles and zoom in
 - Cell 3: Paths. Set a path or two to a variable for later use
@@ -52,7 +52,6 @@ _file extensions .IPYNB_ from download</br></br>
 - Cell 17: Set values to DataFrame. LOOK(!)  Added a couple more metadata attributes that can be saved to csv and later used to populate Item Description (a different tutorial!)
 - Cell 18: Clean up map.  
 - Cell 19: Save updated csv.  Retained original for repeated runs of tutorial, as updated csv now has updated file paths.
-- 
 
   
 
