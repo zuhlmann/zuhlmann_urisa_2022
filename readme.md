@@ -11,7 +11,7 @@ Zachary Uhlmann</br>
 - NOTE - we will create Pro map here, so ensure directory path isn't too long or special character crazy</br>
   - My full path is this: ```C:\Users\uhlmann\Documents\urisa_conference_2022\notebooks_tutorial```</br>
   - your full path should be: ```path\to\your\notebooks_tutorial```</br></br>
-**CONTENTS**</br>
+**CONTENTS** (_note that we will add_ ```four_corners_morels``` _directory (Pro project) in next step and_ ```.git``` _will not be present in your download_ dir</br>
 ![git_dir](https://user-images.githubusercontent.com/48263393/196567709-a71b9178-c975-4a77-8a52-8b54447a43e2.jpg)
 
 #### 2. <ins>Create new ArcGIS Pro Project</ins></br>
