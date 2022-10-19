@@ -65,8 +65,8 @@ Zachary Uhlmann</br>
 - For projects with logs of intermediary data or just lots of data copying, creating, etc., information about data provenance or geoprocessing steps can be added to dataframe concurrently for future reference.
 - Covered in the actual presentation at URISA - Pandas is both a core geospatial data analytics library but also originated and developed  across disciplines and industries.  It's an essentialy Python library to learn.
 - <ins>Not Covered Today:</ins> 
-  -I use the data inventory csv (```four_corners_morels.csv```) to populate Item Descriptions via the shapefile's ```xml```.  I imagine it can be parsed into a ```xslt``` as well.
-  - Ditto for cleaning databases periodically and once projects are complete.  I **delete, move, rename, copy** feature classes via the inventory.csv
+  - I use the data inventory csv (```four_corners_morels.csv```) to populate Item Descriptions via the shapefile's ```xml```.  I imagine it can be parsed into a ```xslt``` as well.
+  - Ditto for cleaning databases periodically and once projects are complete.  I **delete, move, rename, copy** feature classes via the inventory.csv to cleanup the geodatabase.
 
   
 
